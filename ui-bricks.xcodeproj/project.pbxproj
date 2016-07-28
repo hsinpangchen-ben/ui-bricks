@@ -15,6 +15,15 @@
 		E9FB04491D49B23E00128CE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FB04471D49B23E00128CE6 /* LaunchScreen.storyboard */; };
 		E9FB04541D49B23E00128CE6 /* ui_bricksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FB04531D49B23E00128CE6 /* ui_bricksTests.m */; };
 		E9FB045F1D49B23E00128CE6 /* ui_bricksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FB045E1D49B23E00128CE6 /* ui_bricksUITests.m */; };
+		E9FB04981D49FEC000128CE6 /* UIBCircleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FB04971D49FEC000128CE6 /* UIBCircleImageView.m */; };
+		E9FB04991D49FEC000128CE6 /* UIBCircleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FB04971D49FEC000128CE6 /* UIBCircleImageView.m */; };
+		E9FB049A1D49FEC000128CE6 /* UIBCircleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FB04971D49FEC000128CE6 /* UIBCircleImageView.m */; };
+		E9FB049E1D4A008400128CE6 /* UIImage+UIBResize.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FB049D1D4A008400128CE6 /* UIImage+UIBResize.m */; };
+		E9FB049F1D4A008400128CE6 /* UIImage+UIBResize.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FB049D1D4A008400128CE6 /* UIImage+UIBResize.m */; };
+		E9FB04A01D4A008400128CE6 /* UIImage+UIBResize.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FB049D1D4A008400128CE6 /* UIImage+UIBResize.m */; };
+		E9FB04A31D4A00C400128CE6 /* UIImage+UIBTint.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FB04A21D4A00C400128CE6 /* UIImage+UIBTint.m */; };
+		E9FB04A41D4A00C400128CE6 /* UIImage+UIBTint.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FB04A21D4A00C400128CE6 /* UIImage+UIBTint.m */; };
+		E9FB04A51D4A00C400128CE6 /* UIImage+UIBTint.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FB04A21D4A00C400128CE6 /* UIImage+UIBTint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,12 @@
 		E9FB045A1D49B23E00128CE6 /* ui-bricksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ui-bricksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FB045E1D49B23E00128CE6 /* ui_bricksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ui_bricksUITests.m; sourceTree = "<group>"; };
 		E9FB04601D49B23E00128CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FB04961D49FEC000128CE6 /* UIBCircleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBCircleImageView.h; sourceTree = "<group>"; };
+		E9FB04971D49FEC000128CE6 /* UIBCircleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBCircleImageView.m; sourceTree = "<group>"; };
+		E9FB049C1D4A008400128CE6 /* UIImage+UIBResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIBResize.h"; sourceTree = "<group>"; };
+		E9FB049D1D4A008400128CE6 /* UIImage+UIBResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIBResize.m"; sourceTree = "<group>"; };
+		E9FB04A11D4A00C400128CE6 /* UIImage+UIBTint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIBTint.h"; sourceTree = "<group>"; };
+		E9FB04A21D4A00C400128CE6 /* UIImage+UIBTint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIBTint.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,8 +159,22 @@
 		E9FB046C1D49B25200128CE6 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				E9FB049B1D4A005200128CE6 /* category */,
+				E9FB04961D49FEC000128CE6 /* UIBCircleImageView.h */,
+				E9FB04971D49FEC000128CE6 /* UIBCircleImageView.m */,
 			);
 			path = classes;
+			sourceTree = "<group>";
+		};
+		E9FB049B1D4A005200128CE6 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				E9FB049C1D4A008400128CE6 /* UIImage+UIBResize.h */,
+				E9FB049D1D4A008400128CE6 /* UIImage+UIBResize.m */,
+				E9FB04A11D4A00C400128CE6 /* UIImage+UIBTint.h */,
+				E9FB04A21D4A00C400128CE6 /* UIImage+UIBTint.m */,
+			);
+			name = category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +310,9 @@
 				E9FB04411D49B23E00128CE6 /* ViewController.m in Sources */,
 				E9FB043E1D49B23E00128CE6 /* AppDelegate.m in Sources */,
 				E9FB043B1D49B23E00128CE6 /* main.m in Sources */,
+				E9FB049E1D4A008400128CE6 /* UIImage+UIBResize.m in Sources */,
+				E9FB04981D49FEC000128CE6 /* UIBCircleImageView.m in Sources */,
+				E9FB04A31D4A00C400128CE6 /* UIImage+UIBTint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +321,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9FB04541D49B23E00128CE6 /* ui_bricksTests.m in Sources */,
+				E9FB049F1D4A008400128CE6 /* UIImage+UIBResize.m in Sources */,
+				E9FB04991D49FEC000128CE6 /* UIBCircleImageView.m in Sources */,
+				E9FB04A41D4A00C400128CE6 /* UIImage+UIBTint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +332,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9FB045F1D49B23E00128CE6 /* ui_bricksUITests.m in Sources */,
+				E9FB04A01D4A008400128CE6 /* UIImage+UIBResize.m in Sources */,
+				E9FB049A1D49FEC000128CE6 /* UIBCircleImageView.m in Sources */,
+				E9FB04A51D4A00C400128CE6 /* UIImage+UIBTint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +544,7 @@
 				E9FB04651D49B23E00128CE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9FB04661D49B23E00128CE6 /* Build configuration list for PBXNativeTarget "ui-bricksTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +553,7 @@
 				E9FB04681D49B23E00128CE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9FB04691D49B23E00128CE6 /* Build configuration list for PBXNativeTarget "ui-bricksUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +562,7 @@
 				E9FB046B1D49B23E00128CE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
