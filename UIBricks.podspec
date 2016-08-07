@@ -1,16 +1,16 @@
 Pod::Spec.new do |s|
   s.name             = "UIBricks"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "The UI component for iOS"
 
   s.description      = <<-DESC
                         Useful UI Components
                        DESC
 
-  s.homepage         = "https://github.com/hsinpangchen-ben/ui-bricks"
+  s.homepage         = "https://github.com/hsinpangchen/ui-bricks"
   s.license          = 'MIT'
   s.author           = { "Ben Chen" => "iamabang@gmail.com" }
-  s.source           = { :git => "https://github.com/hsinpangchen-ben/ui-bricks.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/hsinpangchen/ui-bricks.git", :tag => s.version.to_s }
 
   s.platform         = :ios, '7.0'
   s.requires_arc     = true
